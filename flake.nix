@@ -78,6 +78,8 @@
                   nil
                   stylua
                   alejandra
+                  nodejs
+                  haxe
                 ])
               ];
           });
