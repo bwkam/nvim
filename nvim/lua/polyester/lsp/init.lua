@@ -4,8 +4,8 @@ if not status_ok then
 end
 
 -- require "user.lsp.null-ls"
-require("handlers").setup()
-require("config")
-require("null-ls")
+require("polyester.lsp.handlers").setup()
+require("polyester.lsp.config")
+require("polyester.lsp.null-ls")
 
 

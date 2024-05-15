@@ -53,11 +53,15 @@
 
               (
                 neovimUtils.makeNeovimConfig {
-                  plugins =
-                    [ (vimPlugins.nvim-treesitter.withPlugins languages) ]
-                    ++ lib.mapAttrsToList (name: src: (vimUtils.buildVimPlugin { inherit name src; })) (import ./npins);
+                  plugins = [
+                    (vimUtils.buildVimPlugin {
+                          name = "polyester";
+                          dependencies =  [ (vimPlugins.nvim-treesitter.withPlugins languages) ] ++ lib.mapAttrsToList (name: src: (vimUtils.buildVimPlugin { inherit name src; })) (import ./npins);
+                          src = "${self}/nvim";
+                     })
+                  ];
 
-                  customRC = import ./lua { inherit lib self; };
+                   wrapRc = false;
                 }
               )
             );
