@@ -3,6 +3,10 @@
 ## try it out rq
 `nix run github:bwkam/nvim#neovim`
 
+## TODO
+- [ ] Switch to neogit
+- [ ] Adjust the cmp panel height (make it longer)
+
 
 ## refs
 - https://github.com/Gerg-L/nvim-flake
