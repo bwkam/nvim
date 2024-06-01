@@ -78,13 +78,21 @@
                 "PATH"
                 ":"
                 (lib.makeBinPath [
+                  # nix
                   deadnix
                   statix
+                  alejandra
+                  nil
+
                   lua-language-server
                   ripgrep
-                  nil
+
+                  # haskell
+                  haskell-language-server
+                  ghc
+                  cabal-install
+
                   stylua
-                  alejandra
                   nodejs
                   haxe
                 ])
