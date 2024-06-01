@@ -84,17 +84,18 @@
                   alejandra
                   nil
 
+                  # lua
                   lua-language-server
+                  stylua
+
                   ripgrep
+                  nodejs
+                  haxe
 
                   # haskell
                   haskell-language-server
                   ghc
                   cabal-install
-
-                  stylua
-                  nodejs
-                  haxe
                 ])
               ];
           });
