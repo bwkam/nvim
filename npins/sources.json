@@ -144,6 +144,18 @@
       "url": "https://github.com/lewis6991/gitsigns.nvim/archive/805610a9393fa231f2c2b49cb521bfa413fadb3d.tar.gz",
       "hash": "0cxcq40i84l1jblvvn913hiz9qik62g0iij097prxgz2jx66lvdz"
     },
+    "haskell-tools.nvim": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "mrcjkb",
+        "repo": "haskell-tools.nvim"
+      },
+      "branch": "master",
+      "revision": "23101030dd6e4eac351a9355ee564c2231089b73",
+      "url": "https://github.com/mrcjkb/haskell-tools.nvim/archive/23101030dd6e4eac351a9355ee564c2231089b73.tar.gz",
+      "hash": "0n0c6877ys9vq43fmjh9fcb64wp7ikad1ipcyy5zwgsh360fv5dx"
+    },
     "haxe.vim": {
       "type": "Git",
       "repository": {
