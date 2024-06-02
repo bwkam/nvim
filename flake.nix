@@ -36,6 +36,7 @@
           "latex"
           "markdown"
           "asm"
+          "typst"
           "bash"
         ]
     );
@@ -96,6 +97,10 @@
                   haskell-language-server
                   ghc
                   cabal-install
+
+                  # typst
+                  typst-lsp
+                  typstfmt
                 ])
               ];
           });

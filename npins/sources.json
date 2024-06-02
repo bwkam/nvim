@@ -186,17 +186,17 @@
       "url": "https://releases.nixos.org/nixpkgs/nixpkgs-24.05pre624838.af8b9db5c00f/nixexprs.tar.xz",
       "hash": "1pymzrxmmlxd983cf8kdkdva4sn8r91qpfi1hd0yzh5xx073k1nv"
     },
-    "null-ls.nvim": {
+    "none-ls.nvim": {
       "type": "Git",
       "repository": {
         "type": "GitHub",
-        "owner": "jose-elias-alvarez",
-        "repo": "null-ls.nvim"
+        "owner": "nvimtools",
+        "repo": "none-ls.nvim"
       },
       "branch": "main",
-      "revision": "0010ea927ab7c09ef0ce9bf28c2b573fc302f5a7",
-      "url": "https://github.com/jose-elias-alvarez/null-ls.nvim/archive/0010ea927ab7c09ef0ce9bf28c2b573fc302f5a7.tar.gz",
-      "hash": "00nkg77y9mp7ac46bdcaga36bbbrwbp7k1d6ajjgg9qf76pk8q3i"
+      "revision": "f5b960a73418249aebcdae3455de320360509253",
+      "url": "https://github.com/nvimtools/none-ls.nvim/archive/f5b960a73418249aebcdae3455de320360509253.tar.gz",
+      "hash": "0v043gax7w2rjjvsvmi6rkppxdx4l5pj9i4a83gavf9c3z56cgbf"
     },
     "nvim-autopairs": {
       "type": "Git",

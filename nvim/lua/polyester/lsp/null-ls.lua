@@ -12,6 +12,7 @@ null_ls.setup({
 	sources = {
 		formatting.stylua,
 		formatting.alejandra,
+		formatting.typstfmt,
 		code_actions.statix,
 		diagnostics.deadnix,
 	},

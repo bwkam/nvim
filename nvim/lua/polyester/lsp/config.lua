@@ -8,6 +8,7 @@ local servers = {
 	"texlab",
 	"tailwindcss",
 	"asm_lsp",
+	"typst_lsp",
 }
 
 local api = vim.api
