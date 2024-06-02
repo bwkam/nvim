@@ -101,7 +101,9 @@
                   # typst
                   tinymist
                   typstfmt
+                  typst-live
                   typst-preview
+                  websocat
                 ])
               ];
           });
