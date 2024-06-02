@@ -61,16 +61,15 @@ M.on_attach = function(client, bufnr)
 		client.server_capabilities.documentFormattingProvider = false
 	end
 
-	if client.supports_method("textDocument/formatting") then
-		vim.api.nvim_clear_autocmds({ group = augroup, buffer = bufnr })
-		vim.api.nvim_create_autocmd("BufWritePre", {
-			group = augroup,
-			buffer = bufnr,
-			callback = function()
-				vim.lsp.buf.format({ async = false })
-			end,
-		})
-	end
+	-- not sure if I should add back the textDocument/formatting check
+	vim.api.nvim_clear_autocmds({ group = augroup, buffer = bufnr })
+	vim.api.nvim_create_autocmd("BufWritePre", {
+		group = augroup,
+		buffer = bufnr,
+		callback = function()
+			vim.lsp.buf.format({ async = false })
+		end,
+	})
 
 	local status_ok, illuminate = pcall(require, "illuminate")
 	if not status_ok then
