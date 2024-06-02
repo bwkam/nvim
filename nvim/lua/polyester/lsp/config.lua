@@ -36,29 +36,3 @@ for _, server in pairs(servers) do
 
 	lspconfig[server].setup(opts)
 end
-
--- https://github.com/itslychee/config/blob/nixos/nvim/lua/fruit/lsp.lua#L22C1-L45C3LSP
-api.nvim_create_autocmd("LspAttach", {
-	group = api.nvim_create_augroup("UserLspConfig", {}),
-	callback = function(ev)
-		vim.bo[ev.buf].omnifunc = "v:lua.vim.lsp.omnifunc"
-
-		local opts = { buffer = ev.buf }
-		k("n", "<space>D", vim.lsp.buf.type_definition, opts)
-		k("n", "gD", vim.lsp.buf.declaration, opts)
-		k("n", "gd", vim.lsp.buf.definition, opts)
-		k("n", "gr", vim.lsp.buf.references, opts)
-		k("n", "K", vim.lsp.buf.hover, opts)
-		k("n", "gi", vim.lsp.buf.implementation, opts)
-		k("n", "<C-k>", vim.lsp.buf.signature_help, opts)
-
-		-- Workspace
-		-- k("n", "<space>wa", vim.lsp.buf.add_workspace_folder, opts)
-		-- k("n", "<space>wr", vim.lsp.buf.remove_workspace_folder, opts)
-		-- k("n", "<space>wl", function()
-		-- 	print(vim.inspect(vim.lsp.buf.list_workspace_folders()))
-		-- end, opts)
-		-- k("n", "<space>rn", vim.lsp.buf.rename, opts)
-		-- k({ "n", "v" }, "<space>ca", vim.lsp.buf.code_action, opts)
-	end,
-})

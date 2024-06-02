@@ -11,6 +11,9 @@ M.capabilities = cmp_nvim_lsp.default_capabilities(M.capabilities)
 
 local augroup = vim.api.nvim_create_augroup("LspFormatting", {})
 
+local api = vim.api
+local k = vim.keymap.set
+
 M.setup = function()
 	local signs = {
 
