@@ -81,7 +81,6 @@ local opts = {
 local mappings = {
 	["a"] = { "<cmd>Dashboard<cr>", "Dashboard" },
 	["w"] = { "<cmd>w!<CR>", "Save" },
-	["q"] = { "<cmd>q!<CR>", "Quit" },
 	["c"] = { "<cmd>Bdelete<CR>", "Close Buffer" },
 	["P"] = { "<cmd>lua require('telescope').extensions.projects.projects()<cr>", "Projects" },
 	g = {

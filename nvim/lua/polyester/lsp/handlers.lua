@@ -79,4 +79,27 @@ M.on_attach = function(client, bufnr)
 	illuminate.on_attach(client)
 end
 
+-- https://github.com/itslychee/config/blob/nixos/nvim/lua/fruit/lsp.lua
+api.nvim_create_autocmd("LspAttach", {
+	group = api.nvim_create_augroup("UserLspConfig", {}),
+	callback = function(ev)
+		vim.bo[ev.buf].omnifunc = "v:lua.vim.lsp.omnifunc"
+
+		local opts = { buffer = ev.buf }
+		k("n", "<space>D", vim.lsp.buf.type_definition, opts)
+		k("n", "gD", vim.lsp.buf.declaration, opts)
+		k("n", "gd", vim.lsp.buf.definition, opts)
+		k("n", "gr", vim.lsp.buf.references, opts)
+		k("n", ";", vim.lsp.buf.hover, opts)
+		k("n", "gi", vim.lsp.buf.implementation, opts)
+		k("n", "<C-k>", vim.lsp.buf.signature_help, opts)
+		-- Workspace
+	end,
+})
+
+k("n", "<space>e", vim.diagnostic.open_float)
+k("n", "[d", vim.diagnostic.goto_prev)
+k("n", "]d", vim.diagnostic.goto_next)
+k("n", "<space>q", vim.diagnostic.setloclist)
+
 return M
