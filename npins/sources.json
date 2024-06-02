@@ -318,6 +318,18 @@
       "url": "https://github.com/nvim-telescope/telescope.nvim/archive/02a60a83961cf9c80e471599171982a31d1cc853.tar.gz",
       "hash": "1az3jrmh9a6jfrqfyj2lggd0lixsp5b7rwg7xrbkcnfp2pqrv48h"
     },
+    "typst-preview.nvim": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "chomosuke",
+        "repo": "typst-preview.nvim"
+      },
+      "branch": "master",
+      "revision": "15eaaffc0a2d8cd871f485f399d1d67ed3322a0b",
+      "url": "https://github.com/chomosuke/typst-preview.nvim/archive/15eaaffc0a2d8cd871f485f399d1d67ed3322a0b.tar.gz",
+      "hash": "0djg5k7jcfh76im5a802cmbr8ijcnpws2ar657cgci8pdqg2axyz"
+    },
     "vim-fugitive": {
       "type": "Git",
       "repository": {

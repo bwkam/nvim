@@ -99,8 +99,9 @@
                   cabal-install
 
                   # typst
-                  typst-lsp
+                  tinymist
                   typstfmt
+                  typst-preview
                 ])
               ];
           });
