@@ -92,6 +92,7 @@
                   ripgrep
                   nodejs
                   haxe
+                  clang-tools
 
                   # haskell
                   haskell-language-server
