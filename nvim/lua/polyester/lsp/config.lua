@@ -9,6 +9,7 @@ local servers = {
 	"tailwindcss",
 	"asm_lsp",
 	"tinymist",
+	"zls",
 }
 
 local api = vim.api

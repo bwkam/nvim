@@ -38,6 +38,7 @@
           "asm"
           "typst"
           "bash"
+          "zig"
         ]
     );
   in {
@@ -98,6 +99,10 @@
                   haskell-language-server
                   ghc
                   cabal-install
+
+                  # zig
+                  zls
+                  zig
 
                   # typst
                   tinymist
