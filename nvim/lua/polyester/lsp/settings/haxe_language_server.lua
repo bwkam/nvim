@@ -1,3 +1,3 @@
 return {
-  cmd = {"node", "/home/bwkam/haxe-language-server/bin/server.js"}
+  cmd = { "node", "/home/bwkam/haxe-language-server/bin/server.js" },
 }

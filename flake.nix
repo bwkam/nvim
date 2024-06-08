@@ -28,6 +28,7 @@
       p:
         map (x: p.${x}) [
           "haskell"
+          "html"
           "nix"
           "lua"
           "norg"
@@ -94,6 +95,8 @@
                   nodejs
                   haxe
                   clang-tools
+                  tailwindcss-language-server
+                  nodePackages_latest.vscode-html-languageserver-bin
 
                   # haskell
                   haskell-language-server

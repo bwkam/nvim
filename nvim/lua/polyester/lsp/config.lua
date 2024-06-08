@@ -3,6 +3,7 @@ local servers = {
 	"lua_ls",
 	"clangd",
 	"haxe_language_server",
+	"html",
 	"bashls",
 	"tsserver",
 	"texlab",
