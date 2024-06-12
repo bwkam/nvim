@@ -246,6 +246,18 @@
       "url": "https://github.com/neovim/nvim-lspconfig/archive/94513a5b246cf32a8f87ca714af50911df63351c.tar.gz",
       "hash": "00rk7203h6w5sq1p4d3bba2q7xa20hp1nzw65qi7rkw9phjfxv58"
     },
+    "nvim-surround": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "kylechui",
+        "repo": "nvim-surround"
+      },
+      "branch": "main",
+      "revision": "b36bf49d097a09781ad6ac0cfea28b40b74570a3",
+      "url": "https://github.com/kylechui/nvim-surround/archive/b36bf49d097a09781ad6ac0cfea28b40b74570a3.tar.gz",
+      "hash": "1z2drdxrs058xdjdr8khf1gm7l7pmvvysxp9ynp54dz5wlvspbxv"
+    },
     "nvim-tree.lua": {
       "type": "Git",
       "repository": {
