@@ -13,9 +13,6 @@ local servers = {
 	"zls",
 }
 
-local api = vim.api
-local k = vim.keymap.set
-
 local lspconfig_status_ok, lspconfig = pcall(require, "lspconfig")
 if not lspconfig_status_ok then
 	return
