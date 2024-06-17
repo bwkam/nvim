@@ -108,6 +108,9 @@
                   zls
                   zig
 
+                  # rust
+                  rust-analyzer
+
                   # typst
                   tinymist
                   typstfmt
