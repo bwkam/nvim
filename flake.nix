@@ -31,6 +31,7 @@
           "html"
           "nix"
           "lua"
+          "rust"
           "norg"
           "typescript"
           "javascript"
