@@ -110,6 +110,7 @@
 
                   # rust
                   rust-analyzer
+                  rustfmt
 
                   # typst
                   tinymist
