@@ -120,6 +120,18 @@
       "url": "https://github.com/nvimdev/dashboard-nvim/archive/a0a78099658c7d4be3714f657b18ca8285d5d106.tar.gz",
       "hash": "1vfzh9dsfggchxsyypkl8njdapmy5vhd0kwihvv32997x2sh1qks"
     },
+    "eyes.nvim": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "amedoeyes",
+        "repo": "eyes.nvim"
+      },
+      "branch": "master",
+      "revision": "2d209144139ac882107a00d3c9462f377bde9f7a",
+      "url": "https://github.com/amedoeyes/eyes.nvim/archive/2d209144139ac882107a00d3c9462f377bde9f7a.tar.gz",
+      "hash": "0d8sbyxw3g45rkpdv8wqsxy0vgjsr7cvi7zi2p6602pqvvr6n76a"
+    },
     "flash.nvim": {
       "type": "Git",
       "repository": {
