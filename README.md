@@ -6,6 +6,7 @@
 ## TODO
 - [ ] Switch to neogit
 - [ ] Adjust the cmp panel height (make it longer)
+- [ ] Test
 
 
 ## refs
