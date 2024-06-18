@@ -92,12 +92,18 @@
                   lua-language-server
                   stylua
 
-                  ripgrep
-                  nodejs
+                  # haxe
                   haxe
+
+                  # misc
+                  ripgrep
                   clang-tools
                   tailwindcss-language-server
                   nodePackages_latest.vscode-html-languageserver-bin
+
+                  #js/ts
+                  nodejs
+                  nodePackages_latest.typescript-language-server
 
                   # haskell
                   haskell-language-server
