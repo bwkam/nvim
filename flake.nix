@@ -104,6 +104,7 @@
                   #js/ts
                   nodejs
                   nodePackages_latest.typescript-language-server
+                  nodePackages_latest.prettier
 
                   # haskell
                   haskell-language-server
