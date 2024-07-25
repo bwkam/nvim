@@ -13,6 +13,7 @@ null_ls.setup({
     formatting.stylua,
     formatting.alejandra,
     formatting.typstfmt,
+    formatting.black,
     formatting.prettier,
     code_actions.statix,
     diagnostics.deadnix,

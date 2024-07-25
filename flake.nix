@@ -30,6 +30,7 @@
           "haskell"
           "html"
           "nix"
+          "python"
           "lua"
           "rust"
           "norg"
@@ -125,6 +126,10 @@
                   typst-live
                   typst-preview
                   websocat
+
+                  # python
+                  pyright
+                  black
                 ])
               ];
           });
