@@ -101,6 +101,7 @@
                   clang-tools
                   tailwindcss-language-server
                   nodePackages_latest.vscode-html-languageserver-bin
+                  asm-lsp
 
                   #js/ts
                   nodejs
