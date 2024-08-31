@@ -42,6 +42,7 @@
           "typst"
           "bash"
           "zig"
+          "go"
         ]
     );
   in {
@@ -130,6 +131,11 @@
                   # python
                   pyright
                   black
+
+                  # go
+                  go
+                  gopls
+                  golangci-lint
                 ])
               ];
           });

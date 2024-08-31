@@ -17,5 +17,6 @@ null_ls.setup({
     formatting.prettier,
     code_actions.statix,
     diagnostics.deadnix,
+    diagnostics.golangci_lint,
   },
 })

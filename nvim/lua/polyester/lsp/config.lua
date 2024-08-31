@@ -12,6 +12,7 @@ local servers = {
   "tinymist",
   "pyright",
   "zls",
+  "gopls",
 }
 
 local lspconfig_status_ok, lspconfig = pcall(require, "lspconfig")
